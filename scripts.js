@@ -28,9 +28,25 @@ button.addEventListener('click', function(){
         
     
     })
-    
-// .catch(err => alert("wrong city name!"))
 })
+
+
+
+
+// button.addEventListener('click', function(){
+//     fetch('http://api.openweathermap.org/data/2.5/uvi/forecast?lat={lat}&lon={lon}&cnt={cnt}&appid=668cd875e55a27681d21ea983911b3b3')
+//     .then(response => response.json())
+//     .then(data => {
+//         console.log(data);
+//         var uvindex = data['value'];
+
+//         uvindex.innerHTML = uvindex;
+
+        
+        
+    
+//     })
+// })
 
 
 
