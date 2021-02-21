@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Weather Dashboard</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+
+</head>
+<body>
+    <div class="topnav">
+        <p class="topnav">Weather Dashboard</p>
+      </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+            <form id="city-form">
+                <label for="city-input">Search for a City:</label>
+                <input type="text" class="cityValue"><br>
+                <button type="button" class="btn btn-secondary" id="button">Search</button>
+            </form>
+            </div>
+         <div class="col col-sm-6" id="results">
+            <h3 class="city"></h1>
+                <p class="description"></p>
+                <p class="temp"></p>
+                <p class="humidity"></p>
+                <p class="wind"></p>
+                <p class="uvindex"></p>
+
+         <!-- <div id="currentCity"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <h3 class=""></h3>
+        </div>
+    </div>
+
+
+
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+
+  body {
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+
+  .row {
+      padding: 50px;
+  }
+
+  #results {
+      text-align: center;
+      float: left;
+  }
+ 
