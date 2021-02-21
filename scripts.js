@@ -8,7 +8,7 @@ var wind = document.querySelector('.wind');
 var uvindex = document.querySelector('.uvindex');
 
 button.addEventListener('click', function(){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+ cityValue.value +'&units=imperial&appid=668cd875e55a27681d21ea983911b3b3')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+ cityValue.value +'&units=imperial&appid=668cd875e55a27681d21ea983911b3b3')
     .then(response => response.json())
     .then(data => {
         console.log(data);
